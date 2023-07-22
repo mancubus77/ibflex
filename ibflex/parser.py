@@ -395,7 +395,7 @@ ATTRIB_CONVERTERS.update(
 ###############################################################################
 DATE_FORMATS = {8: {0: "%Y%m%d", 2: "%m/%d/%y"},
                 9: {0: "%d-%b-%y"},
-                10: {0: "%Y-%m-%d", 2: "%m/%d/%Y"}}
+                10: {0: "%Y-%m-%d", 2: "%d/%m/%Y"}}
 """Keyed first by string length, then by "/" count within string.
 
 We can't distinguish in-band between US MM/dd/yyyy and Euro dd/MM/yyyy.
